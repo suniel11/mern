@@ -5,7 +5,7 @@ dotenv.config()
 
 const connectDB = async () => {
  try{
-await mongoose.connect("mongodb+srv://sunil:Suniel07@cluster0.ebv5vfe.mongodb.net/test" , {
+await mongoose.connect("_" , {
     useNewUrlParser: true,
     // useUnifiedToplogy:true
 })
